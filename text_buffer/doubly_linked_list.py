@@ -1,3 +1,4 @@
+
 """Each ListNode holds a reference to its previous node
 as well as its next node in the List."""
 
@@ -111,7 +112,7 @@ class DoublyLinkedList:
                 self.head = node.next
             elif node is self.tail:
                 self.tail = node.prev
-                
+
             node.delete()
 
         self.length -= 1
